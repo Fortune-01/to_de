@@ -1,6 +1,10 @@
 #include "main.h"
+
 /**
- * main - addd two intergers and returns the result.
+ * Add -> adds two number
+ *
+ * sum 
+ *
  * Return: x + y
  */
 int add(int x, int y)
