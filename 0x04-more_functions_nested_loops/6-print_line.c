@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if a char is a digit
- * @c: int to be checked
- * Return: 1 if c is a digit, 0 otherwise
+ * print_line - prints a straight line using '_'
+ * @n: the number of '_' to be printed
  */
-int _isdigit(int c)
+void print_line(int n)
 {
-	int y = 0;
+	int len;
 
-	if (c >= 'o'  && c <= '9')
-		y = 1;
-		return (y);
+	if (n > 0)
+	{
+		for (len = 0; len < n; len++)
+			_putchar('_');
+	}
+	_putchar('\n');
 }
