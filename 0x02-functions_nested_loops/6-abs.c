@@ -1,12 +1,13 @@
 #include "main.h"
 /**
  * _abs -> return absolute value of a number
- * An: parameter
+ * @n: parameter
  * Return: absolute value of a number
  */
-int _abs(int n)
+int _abs(int f)
 {
-	if (n < 0)
-		n = -n;
-	return (n);
+	if (f >= 0)
+		return (f);
+	else
+		return (-f);
 }
