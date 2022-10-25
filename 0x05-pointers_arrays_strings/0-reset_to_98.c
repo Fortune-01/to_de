@@ -2,6 +2,7 @@
 
 /**
  * main - update value to 98
+ * @n: int type pointer
  *
  * Return: Always 0.
  */
