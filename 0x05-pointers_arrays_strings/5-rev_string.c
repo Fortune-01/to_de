@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * main - reverse a string
+ * rev_string - reverse a string
+ * @s: char array string type variable
  *
- * Return: Always 0.
+ * Return: void
  */
-
 void rev_string(char *s)
 {
 	strrev();
