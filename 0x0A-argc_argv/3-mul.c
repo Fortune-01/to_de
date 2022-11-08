@@ -13,7 +13,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	
 		if (argc <= 2)
 		{
-			printf("%s\n", "error");
+			printf("%s\n", "Error");
 			return (1);
 		}
 		x = atoi(argv[1]);
