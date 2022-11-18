@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "function_pointers_header.h"
+#include "function_pointers.h"
 
 /**
  * main - funstion that prints a name
@@ -8,8 +8,10 @@
  * Return: 0.
  */
 
-int main(void)
+void print_name(char *name, void (*f)(char *))
 {
-	printf("Prints a name\n");
-	return (0);
+	if (name && f)
+	{
+		f (name);
+	}
 }
