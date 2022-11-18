@@ -3,7 +3,7 @@
 /**
  * int_index - searches for an integer
  * @size: the size of an array
- * @cmp: pointer to a function 
+ * @cmp: pointer to a function
  * @array: the array
  *
  * Return: the index of the first element -1 iof no match is found
@@ -14,7 +14,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	int index;
 	int i = 0;
 
-	if(size <= 0)
+	if (size <= 0)
 	{
 		return (-1);
 	}
