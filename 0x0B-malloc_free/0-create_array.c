@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * create an array of chars,
+ * main - create an array of chars
  * and intilizes it wwith a specific char
  * @size: the size of memory to print
  *
  * Return: 0.
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char *str;
