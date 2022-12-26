@@ -1,4 +1,6 @@
+#include "main.h"
 #include <stdio.h>
+
 /**
  * main - prints the mulitiplicaton table
  * mulitples of 9
