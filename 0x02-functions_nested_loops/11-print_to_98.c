@@ -12,6 +12,6 @@ void print_to_98(int n)
 {
 
 	for (n = 0; n <= 98;)
-		printf("the value of n is %d\n", n++);
+		printf("%d\n", n++);
 }
 
