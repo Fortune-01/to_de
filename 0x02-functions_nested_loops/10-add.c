@@ -2,8 +2,7 @@
 
 /**
  * Add -> adds two number
- *
- * sum 
+ * sum
  *
  * Return: x + y
  */
